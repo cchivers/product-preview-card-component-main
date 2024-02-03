@@ -37,6 +37,7 @@ body {
   letter-spacing: 5px;
   font-size: 12px;
   color: #6c7289;
+  text-transform: uppercase;
 }
 
 .card-title {
@@ -79,12 +80,13 @@ body {
   color: #fff;
   background-color: #3d8168;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Montserrat", sans-serif;
   width: 100%;
   border-radius: 8px;
   margin-top: 12px;
   padding: 8px 0;
+  border: none;
 }
 
 .card button:hover,
