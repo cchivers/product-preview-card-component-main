@@ -19,12 +19,15 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
-.card img {
+#mobile-img {
   width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+}
+
+#desktop-img {
+  display: none;
 }
 
 .card-info {
@@ -107,9 +110,12 @@ body {
     flex-direction: row;
   }
 
-  .card img {
+  #mobile-img {
+    display: none;
+  }
+
+  #desktop-img {
     width: 50%;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 0;
+    display: block;
   }
 }
